@@ -1,0 +1,454 @@
+2024-05-20T12:17:19.754+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:17:19.754+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:17:20.133+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:17:20.160+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:17:20.400+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:17:20.401+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:17:20.401+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:17:20.559+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:17:20.566+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:17:20.566+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 806 ms
+2024-05-20T12:17:20.644+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:17:20.660+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:17:20.663+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-05-20T12:17:20.686+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fc7d50a
+2024-05-20T12:17:20.687+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-05-20T12:17:20.689+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:17:20.790+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:17:20.902+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:17:21.062+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:17:21.266+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@50e00fe1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@423ca3a5, org.springframework.security.web.context.SecurityContextHolderFilter@2c644532, org.springframework.security.web.header.HeaderWriterFilter@35c5a3f1, org.springframework.security.web.csrf.CsrfFilter@5bb780b8, org.springframework.security.web.authentication.logout.LogoutFilter@22c4c20c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d96e918, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@452cbb9b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38185cd3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45b7eed9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bb1b246, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d6e41ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42a3ac2f, org.springframework.security.web.access.ExceptionTranslationFilter@24964bef, org.springframework.security.web.access.intercept.AuthorizationFilter@6d8fe830]
+2024-05-20T12:17:21.291+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:17:21.314+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:17:21.322+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.661 seconds (process running for 260.504)
+2024-05-20T12:17:21.325+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:20:22.344+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:20:22.359+05:30  INFO 4316 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:20:22.366+05:30  INFO 4316 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:20:22.367+05:30  INFO 4316 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-05-20T12:20:22.373+05:30  INFO 4316 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-05-20T12:20:22.540+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:20:22.541+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:20:22.864+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:20:22.885+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:20:23.052+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:20:23.053+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:20:23.053+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:20:23.218+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:20:23.224+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:20:23.225+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 681 ms
+2024-05-20T12:20:23.300+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:20:23.313+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:20:23.315+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-05-20T12:20:23.338+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@526038a
+2024-05-20T12:20:23.339+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-05-20T12:20:23.340+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:20:23.438+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:20:23.550+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:20:23.692+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:20:23.893+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b11ed3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52621daa, org.springframework.security.web.context.SecurityContextHolderFilter@3f95154b, org.springframework.security.web.header.HeaderWriterFilter@bcbe1f3, org.springframework.security.web.csrf.CsrfFilter@7c67fd76, org.springframework.security.web.authentication.logout.LogoutFilter@4d3d7bf0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@749fd526, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70f99e42, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@58dec425, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@525bc2be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cdad382, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24692745, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@541ca3b2, org.springframework.security.web.access.ExceptionTranslationFilter@336d60dc, org.springframework.security.web.access.intercept.AuthorizationFilter@1cb4afd1]
+2024-05-20T12:20:23.919+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:20:23.942+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:20:23.949+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.461 seconds (process running for 443.13)
+2024-05-20T12:20:23.951+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:20:32.697+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:20:32.712+05:30  INFO 4316 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:20:32.719+05:30  INFO 4316 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:20:32.720+05:30  INFO 4316 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-05-20T12:20:32.728+05:30  INFO 4316 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-05-20T12:20:32.854+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:20:32.854+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:20:33.147+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:20:33.169+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:20:33.363+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:20:33.364+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:20:33.364+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:20:33.498+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:20:33.503+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:20:33.503+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 645 ms
+2024-05-20T12:20:33.573+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:20:33.586+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:20:33.588+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-05-20T12:20:33.604+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65bbef7
+2024-05-20T12:20:33.604+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-05-20T12:20:33.607+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:20:33.687+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:20:33.781+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:20:33.875+05:30  WARN 4316 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController' defined in file [C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes\com\expedux\controllers\LoginController.class]: Failed to instantiate [com.expedux.controllers.LoginController]: Constructor threw exception
+2024-05-20T12:20:33.876+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:20:33.876+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-05-20T12:20:33.889+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-05-20T12:20:33.890+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:20:33.903+05:30  INFO 4316 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-20T12:20:33.940+05:30 ERROR 4316 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController' defined in file [C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes\com\expedux\controllers\LoginController.class]: Failed to instantiate [com.expedux.controllers.LoginController]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:317) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:305) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1350) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:558) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.0.19.jar:6.0.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615) ~[spring-context-6.0.19.jar:6.0.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.11.jar:3.1.11]
+	at com.expedux.DemoWebSecurityApplication.main(DemoWebSecurityApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.11.jar:3.1.11]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.expedux.controllers.LoginController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:314) ~[spring-beans-6.0.19.jar:6.0.19]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "final", float expected
+	The method login in type LoginController can only set one of public / protected / private
+
+	at com.expedux.controllers.LoginController.<init>(LoginController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-6.0.19.jar:6.0.19]
+	... 26 common frames omitted
+
+2024-05-20T12:21:13.669+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:21:13.670+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:21:14.027+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:21:14.048+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:21:14.205+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:21:14.210+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:21:14.210+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:21:14.359+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:21:14.363+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:21:14.364+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 690 ms
+2024-05-20T12:21:14.441+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:21:14.459+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:21:14.461+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-05-20T12:21:14.482+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f7f6b7f
+2024-05-20T12:21:14.482+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-05-20T12:21:14.484+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:21:14.602+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:21:14.704+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:21:14.861+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:21:15.084+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1611f544, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ccaf1f9, org.springframework.security.web.context.SecurityContextHolderFilter@35486a31, org.springframework.security.web.header.HeaderWriterFilter@2bd5a14, org.springframework.security.web.csrf.CsrfFilter@40249dc, org.springframework.security.web.authentication.logout.LogoutFilter@712dc776, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4c28d8a8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@30a80e64, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@762d8b50, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53a1b02c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@239289ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58ad829f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28d37569, org.springframework.security.web.access.ExceptionTranslationFilter@f5e835b, org.springframework.security.web.access.intercept.AuthorizationFilter@350be758]
+2024-05-20T12:21:15.111+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:21:15.136+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:21:15.144+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.524 seconds (process running for 494.326)
+2024-05-20T12:21:15.147+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:23:14.402+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 22 class path changes (0 additions, 0 deletions, 22 modifications)
+2024-05-20T12:23:14.425+05:30  INFO 4316 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:23:14.432+05:30  INFO 4316 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:23:14.432+05:30  INFO 4316 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-05-20T12:23:14.440+05:30  INFO 4316 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-05-20T12:23:14.559+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:23:14.559+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:23:14.850+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:23:14.864+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:23:15.020+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:23:15.021+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:23:15.021+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:23:15.181+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:23:15.189+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:23:15.189+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 627 ms
+2024-05-20T12:23:15.265+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:23:15.279+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:23:15.280+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-05-20T12:23:15.305+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37e7067e
+2024-05-20T12:23:15.305+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-05-20T12:23:15.308+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:23:15.406+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:23:15.560+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:23:15.728+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:23:16.048+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e319f88, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f3749fd, org.springframework.security.web.context.SecurityContextHolderFilter@1f6f89d3, org.springframework.security.web.header.HeaderWriterFilter@19fec782, org.springframework.security.web.csrf.CsrfFilter@72303fe8, org.springframework.security.web.authentication.logout.LogoutFilter@3bf3afbe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7068d812, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2dc267cf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4929b641, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56c017fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cd32aa9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42ef6ac7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f80277d, org.springframework.security.web.access.ExceptionTranslationFilter@52af97bb, org.springframework.security.web.access.intercept.AuthorizationFilter@3c31b0db]
+2024-05-20T12:23:16.072+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:23:16.093+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:23:16.099+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.578 seconds (process running for 615.279)
+2024-05-20T12:23:16.100+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:23:30.004+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:23:30.024+05:30  INFO 4316 --- [Thread-26] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:23:30.031+05:30  INFO 4316 --- [Thread-26] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:23:30.031+05:30  INFO 4316 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-05-20T12:23:30.037+05:30  INFO 4316 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-05-20T12:23:30.151+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:23:30.152+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:23:30.450+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:23:30.468+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:23:30.626+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:23:30.626+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:23:30.627+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:23:30.762+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:23:30.768+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:23:30.768+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
+2024-05-20T12:23:30.835+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:23:30.847+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:23:30.849+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-05-20T12:23:30.865+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a2472a8
+2024-05-20T12:23:30.865+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-05-20T12:23:30.867+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:23:30.931+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:23:31.028+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:23:31.113+05:30  WARN 4316 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController' defined in file [C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes\com\expedux\controllers\LoginController.class]: Failed to instantiate [com.expedux.controllers.LoginController]: Constructor threw exception
+2024-05-20T12:23:31.113+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:23:31.113+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-05-20T12:23:31.128+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-05-20T12:23:31.129+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:23:31.138+05:30  INFO 4316 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-20T12:23:31.143+05:30 ERROR 4316 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController' defined in file [C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes\com\expedux\controllers\LoginController.class]: Failed to instantiate [com.expedux.controllers.LoginController]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:317) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:305) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1350) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:558) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.0.19.jar:6.0.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615) ~[spring-context-6.0.19.jar:6.0.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317) ~[spring-boot-3.1.11.jar:3.1.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.11.jar:3.1.11]
+	at com.expedux.DemoWebSecurityApplication.main(DemoWebSecurityApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.11.jar:3.1.11]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.expedux.controllers.LoginController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.19.jar:6.0.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:314) ~[spring-beans-6.0.19.jar:6.0.19]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	LOGGER cannot be resolved to a type
+	LoggerFactory cannot be resolved
+
+	at com.expedux.controllers.LoginController.<init>(LoginController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-6.0.19.jar:6.0.19]
+	... 26 common frames omitted
+
+2024-05-20T12:24:38.500+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:24:38.501+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:24:38.814+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:24:38.836+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:24:38.976+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:24:38.977+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:24:38.977+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:24:39.104+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:24:39.111+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:24:39.111+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 607 ms
+2024-05-20T12:24:39.177+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:24:39.189+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:24:39.190+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-05-20T12:24:39.218+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71ea02fc
+2024-05-20T12:24:39.218+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-05-20T12:24:39.220+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:24:39.307+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:24:39.387+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:24:39.514+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:24:39.731+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@347a1227, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d3e4258, org.springframework.security.web.context.SecurityContextHolderFilter@4918e29b, org.springframework.security.web.header.HeaderWriterFilter@52316e53, org.springframework.security.web.csrf.CsrfFilter@3696126c, org.springframework.security.web.authentication.logout.LogoutFilter@51aeefed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b53b79, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4c411a96, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@42ffd275, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@20426dc5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f9b9ca6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15dbad88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71e0a3aa, org.springframework.security.web.access.ExceptionTranslationFilter@14c9ca6f, org.springframework.security.web.access.intercept.AuthorizationFilter@5d8093bb]
+2024-05-20T12:24:39.750+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:24:39.775+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:24:39.780+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.313 seconds (process running for 698.962)
+2024-05-20T12:24:39.783+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:25:24.576+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:25:24.598+05:30  INFO 4316 --- [Thread-30] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:25:24.604+05:30  INFO 4316 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:25:24.605+05:30  INFO 4316 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-05-20T12:25:24.611+05:30  INFO 4316 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-05-20T12:25:24.744+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:25:24.744+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:25:25.063+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:25:25.078+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:25:25.238+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:25:25.238+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:25:25.239+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:25:25.369+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:25:25.374+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:25:25.375+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 626 ms
+2024-05-20T12:25:25.430+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:25:25.440+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:25:25.444+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-05-20T12:25:25.462+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cef40aa
+2024-05-20T12:25:25.462+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-05-20T12:25:25.464+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:25:25.540+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:25:25.643+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:25:25.769+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:25:25.985+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5df9b443, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77934bba, org.springframework.security.web.context.SecurityContextHolderFilter@6692edfb, org.springframework.security.web.header.HeaderWriterFilter@21460d0e, org.springframework.security.web.csrf.CsrfFilter@118ca492, org.springframework.security.web.authentication.logout.LogoutFilter@78511355, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b42d4bc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@681ee230, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7a7996c0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b79a73a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@124e6d8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79a1be77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c1faec2, org.springframework.security.web.access.ExceptionTranslationFilter@102f6574, org.springframework.security.web.access.intercept.AuthorizationFilter@136724f2]
+2024-05-20T12:25:26.013+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:25:26.031+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:25:26.038+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.343 seconds (process running for 745.219)
+2024-05-20T12:25:26.040+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:26:20.031+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:26:20.047+05:30  INFO 4316 --- [Thread-37] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:26:20.054+05:30  INFO 4316 --- [Thread-37] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:26:20.055+05:30  INFO 4316 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-05-20T12:26:20.062+05:30  INFO 4316 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-05-20T12:26:20.192+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:26:20.192+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:26:20.497+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:26:20.515+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:26:20.659+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:26:20.659+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:26:20.659+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:26:20.786+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:26:20.793+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:26:20.793+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 598 ms
+2024-05-20T12:26:20.863+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:26:20.878+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:26:20.880+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-05-20T12:26:20.904+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12a94228
+2024-05-20T12:26:20.904+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-05-20T12:26:20.906+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:26:20.981+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:26:21.079+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:26:21.211+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:26:21.415+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@54b04e31, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ab4b30c, org.springframework.security.web.context.SecurityContextHolderFilter@6c1bd3c2, org.springframework.security.web.header.HeaderWriterFilter@488fb279, org.springframework.security.web.csrf.CsrfFilter@d07c36c, org.springframework.security.web.authentication.logout.LogoutFilter@5f02feae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@308cbe0c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11f10776, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f9d0e88, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7833c13d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb4618e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24d875ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4941086f, org.springframework.security.web.access.ExceptionTranslationFilter@6053688e, org.springframework.security.web.access.intercept.AuthorizationFilter@21c1fd66]
+2024-05-20T12:26:21.438+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:26:21.456+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:26:21.461+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.305 seconds (process running for 800.643)
+2024-05-20T12:26:21.464+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:26:35.975+05:30  INFO 4316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-20T12:26:35.976+05:30  INFO 4316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-20T12:26:35.980+05:30  INFO 4316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-20T12:26:39.882+05:30  INFO 4316 --- [http-nio-8080-exec-2] c.expedux.controllers.LoginController    : UserLoginDto(userSeq=0, userPassword=Imeidb@123, userName=babtjtal2)
+2024-05-20T12:26:39.884+05:30  INFO 4316 --- [http-nio-8080-exec-2] c.expedux.controllers.LoginController    : user input===>babtjtal2==Imeidb@123
+2024-05-20T12:26:58.891+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : UserLoginDto(userSeq=0, userPassword=pass, userName=user)
+2024-05-20T12:26:58.891+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : user input===>user==pass
+2024-05-20T12:26:58.896+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : database=====>user==pass
+2024-05-20T12:28:26.061+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:28:26.088+05:30  INFO 4316 --- [Thread-41] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:28:26.089+05:30  INFO 4316 --- [Thread-41] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-20T12:28:26.095+05:30  INFO 4316 --- [Thread-41] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:28:26.096+05:30  INFO 4316 --- [Thread-41] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-05-20T12:28:26.102+05:30  INFO 4316 --- [Thread-41] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-05-20T12:28:26.245+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:28:26.246+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:28:26.554+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:28:26.569+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:28:26.709+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:28:26.709+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:28:26.710+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:28:26.844+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:28:26.848+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:28:26.848+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2024-05-20T12:28:26.909+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:28:26.921+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:28:26.922+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-05-20T12:28:26.942+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5168243d
+2024-05-20T12:28:26.942+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-05-20T12:28:26.944+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:28:27.015+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:28:27.109+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:28:27.229+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:28:27.432+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@525df06a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@295202c2, org.springframework.security.web.context.SecurityContextHolderFilter@7f8ff095, org.springframework.security.web.header.HeaderWriterFilter@7b0e0296, org.springframework.security.web.csrf.CsrfFilter@65ec2803, org.springframework.security.web.authentication.logout.LogoutFilter@4208c2fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6baccc29, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2fef7ba, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@24924e45, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6f37ccb4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b277357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@96f5eb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7591740f, org.springframework.security.web.access.ExceptionTranslationFilter@24fac808, org.springframework.security.web.access.intercept.AuthorizationFilter@44d7f46f]
+2024-05-20T12:28:27.457+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:28:27.479+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:28:27.484+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.29 seconds (process running for 926.666)
+2024-05-20T12:28:27.486+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:33:07.826+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:33:07.854+05:30  INFO 4316 --- [Thread-45] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:33:07.862+05:30  INFO 4316 --- [Thread-45] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:33:07.863+05:30  INFO 4316 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-05-20T12:33:07.869+05:30  INFO 4316 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-05-20T12:33:07.980+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:33:07.980+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:33:08.238+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:33:08.254+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:33:08.362+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:33:08.363+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:33:08.363+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:33:08.467+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:33:08.472+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:33:08.472+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 489 ms
+2024-05-20T12:33:08.518+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:33:08.528+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:33:08.530+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-05-20T12:33:08.545+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37ff2b7b
+2024-05-20T12:33:08.545+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-05-20T12:33:08.547+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:33:08.599+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:33:08.653+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:33:08.747+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:33:08.907+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8616d7e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fe64a7c, org.springframework.security.web.context.SecurityContextHolderFilter@75f3dcc3, org.springframework.security.web.header.HeaderWriterFilter@7a15b110, org.springframework.security.web.csrf.CsrfFilter@2df15496, org.springframework.security.web.authentication.logout.LogoutFilter@13db984e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7119c6a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@21655622, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@349f6326, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48c76d2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5281730f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76afe4d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47c2d686, org.springframework.security.web.access.ExceptionTranslationFilter@33b2f70e, org.springframework.security.web.access.intercept.AuthorizationFilter@1184c688]
+2024-05-20T12:33:08.937+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:33:08.953+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:33:08.960+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.02 seconds (process running for 1208.141)
+2024-05-20T12:33:08.961+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:33:17.622+05:30  INFO 4316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-20T12:33:17.642+05:30  INFO 4316 --- [Thread-49] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:33:17.649+05:30  INFO 4316 --- [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:33:17.650+05:30  INFO 4316 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2024-05-20T12:33:17.655+05:30  INFO 4316 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2024-05-20T12:33:17.765+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Starting DemoWebSecurityApplication using Java 17.0.10 with PID 4316 (C:\Users\My Pc\eclipse-workspace\demo-web-security\target\classes started by My Pc in C:\Users\My Pc\eclipse-workspace\demo-web-security)
+2024-05-20T12:33:17.765+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-20T12:33:18.052+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T12:33:18.070+05:30  INFO 4316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2024-05-20T12:33:18.221+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-20T12:33:18.222+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T12:33:18.222+05:30  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-20T12:33:18.349+05:30  INFO 4316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-20T12:33:18.354+05:30  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-20T12:33:18.354+05:30  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 586 ms
+2024-05-20T12:33:18.423+05:30  INFO 4316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-20T12:33:18.435+05:30  INFO 4316 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T12:33:18.437+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2024-05-20T12:33:18.456+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5608b514
+2024-05-20T12:33:18.456+05:30  INFO 4316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2024-05-20T12:33:18.457+05:30  WARN 4316 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-20T12:33:18.523+05:30  INFO 4316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-20T12:33:18.617+05:30  INFO 4316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:33:18.750+05:30  WARN 4316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T12:33:18.957+05:30  INFO 4316 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1de70ef7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1941cfd, org.springframework.security.web.context.SecurityContextHolderFilter@5f5b944f, org.springframework.security.web.header.HeaderWriterFilter@406857f9, org.springframework.security.web.csrf.CsrfFilter@97e38c0, org.springframework.security.web.authentication.logout.LogoutFilter@5d80c272, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25172231, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@21e4591d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1d8eb054, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e5ff7b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@271b0f5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2331151d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ced3e39, org.springframework.security.web.access.ExceptionTranslationFilter@512aa092, org.springframework.security.web.access.intercept.AuthorizationFilter@759d2e58]
+2024-05-20T12:33:18.986+05:30  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-20T12:33:19.006+05:30  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-20T12:33:19.013+05:30  INFO 4316 --- [restartedMain] com.expedux.DemoWebSecurityApplication   : Started DemoWebSecurityApplication in 1.278 seconds (process running for 1218.194)
+2024-05-20T12:33:19.015+05:30  INFO 4316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-20T12:33:26.388+05:30  INFO 4316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-20T12:33:26.388+05:30  INFO 4316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-20T12:33:26.389+05:30  INFO 4316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-20T12:33:38.285+05:30  INFO 4316 --- [http-nio-8080-exec-2] c.expedux.controllers.LoginController    : UserLoginDto(userSeq=0, userPassword=Imeidb@123, userName=babtjtal2)
+2024-05-20T12:33:38.288+05:30  INFO 4316 --- [http-nio-8080-exec-2] c.expedux.controllers.LoginController    : user input===>babtjtal2==Imeidb@123
+2024-05-20T12:33:38.293+05:30  INFO 4316 --- [http-nio-8080-exec-2] c.expedux.controllers.LoginController    : register
+2024-05-20T12:34:05.178+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : UserLoginDto(userSeq=0, userPassword=pass, userName=user)
+2024-05-20T12:34:05.179+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : user input===>user==pass
+2024-05-20T12:34:05.184+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : database=====>user==pass
+2024-05-20T12:34:05.184+05:30  INFO 4316 --- [http-nio-8080-exec-6] c.expedux.controllers.LoginController    : redirect:/index
+2024-05-20T12:34:25.473+05:30  INFO 4316 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-20T12:34:25.486+05:30  INFO 4316 --- [RMI TCP Connection(25)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-20T12:34:25.486+05:30  INFO 4316 --- [RMI TCP Connection(25)-127.0.0.1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-20T12:34:25.493+05:30  INFO 4316 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T12:34:25.493+05:30  INFO 4316 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2024-05-20T12:34:25.500+05:30  INFO 4316 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
