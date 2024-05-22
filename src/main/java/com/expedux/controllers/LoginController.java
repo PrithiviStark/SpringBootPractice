@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.expedux.dtos.UserDetailsDto;
 import com.expedux.dtos.UserLoginDto;
 import com.expedux.models.Users;
 import com.expedux.services.LoginService;
@@ -50,10 +51,25 @@ public class LoginController {
 		System.out.println("register page ------>>>>>");
 		Users ul = new Users();
 		ModelAndView mv =new ModelAndView();
-		mv.addObject("userlogin", ul);
+		mv.addObject("userDetails", ul);
 		mv.setViewName("register");
 		return mv;
 	}
+	@PostMapping("registration")
+	public ModelAndView registration(@Valid @ModelAttribute("userDetails")UserDetailsDto ud,BindingResult result ) {
+		System.out.println("registartion processing ------>>>>>");
+		ModelAndView mv =new ModelAndView();
+		if(result.hasErrors()) {
+			mv.setViewName("register");
+		}
+		else {
+		service.saveRegistration(ud);
+		System.out.println("registartion saved ------>>>>>");
+		mv.setViewName("registerCompleted");
+		}
+		return mv;
+	}
+	
 	
 	
 	@PostMapping({ "authenticate" })

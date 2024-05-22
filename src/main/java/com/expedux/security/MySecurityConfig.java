@@ -7,6 +7,7 @@ import org.springframework.security.authentication.dao.DaoAuthenticationProvider
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
@@ -35,17 +36,17 @@ public class MySecurityConfig {
         return authProvider;
     }
     
-//    @Bean
-//    public PasswordEncoder passwordEncoder() {
-//
-//    	System.out.println("===============passwordEncoder()");
-//        return new BCryptPasswordEncoder();
-//    }
-    
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance(); // Using NoOpPasswordEncoder
+
+    	System.out.println("===============passwordEncoder()");
+        return new BCryptPasswordEncoder();
     }
+    
+//    @Bean
+//    public PasswordEncoder passwordEncoder() {
+//        return NoOpPasswordEncoder.getInstance(); // Using NoOpPasswordEncoder
+//    }
 
  
     @Bean
