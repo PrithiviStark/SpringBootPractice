@@ -20,15 +20,15 @@
 </style>
 </head>
 <body>
-	<spring:form action="authenticate" method="post" modelAttribute="users">
+	<form action="login" method="post">
 	
-        User Name : <spring:input id="username" type="text" path="userName" name="username" /><br>
+        User Name : <input id="username" type="text" name="username" /><br>
 		<spring:errors path="userName" class="error-message"></spring:errors><br>
 		
-        Password: <spring:input id="password" type="password" path="userPassword" name="password" /><br>
+        Password: <input id="password" type="password" name="password" /><br>
         <spring:errors path="userPassword" class="error-message"></spring:errors><br>
         
-		<spring:input type="submit" path="" value="Sign In" />
-	</spring:form>
+		<input type="submit" name="submit" value="Sign In" />
+	</form>
 </body>
 </html>

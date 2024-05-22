@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.expedux.services.MyUserDetailsService;
 @Configuration
@@ -46,32 +47,25 @@ public class MySecurityConfig {
         return NoOpPasswordEncoder.getInstance(); // Using NoOpPasswordEncoder
     }
 
+ 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
-    	System.out.println("===============ilterChain(HttpSecurity http)");
-    	
-    		http	
-	    		.authorizeHttpRequests()
-	    		.anyRequest().authenticated()
-	    		.and()
-	    		.formLogin().defaultSuccessUrl("/register");
-    	
-//        http
-//            .authorizeHttpRequests(authorize -> authorize
-//                .requestMatchers("/login", "/register").permitAll()
-//                .anyRequest().authenticated()
-//            )
-//            .formLogin(form -> form
-//                .loginPage("/login")
-//                .defaultSuccessUrl("/", true)
-//                .permitAll()
-//            )
-//            .logout(logout -> logout
-//                .invalidateHttpSession(true)
-//                .clearAuthentication(true)
-//                .permitAll()
-//            );
+    	System.out.println("===============filterChain(HttpSecurity http)");
+
+        http.csrf(csrf -> csrf.disable())
+//				.authorizeHttpRequests(authorize -> authorize
+//				      .requestMatchers("/login").permitAll()
+//				      .anyRequest().authenticated())
+        		.formLogin(login -> login
+        				.loginPage("/login")
+        				.defaultSuccessUrl("/register")
+        				.failureUrl("/error"))
+                .logout(logout -> logout
+                        .clearAuthentication(true)
+                        .invalidateHttpSession(true)
+                        .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+                        .logoutSuccessUrl("/loggedout"));
 
         return http.build();
     }

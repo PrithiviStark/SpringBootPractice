@@ -27,14 +27,34 @@ public class LoginController {
 	private static final Logger logger= LoggerFactory.getLogger(LoginController.class);
 	
 
-	@GetMapping({ "/"})
-	public ModelAndView login() {
+	@GetMapping({"/","/login"})
+	public String loginControl() {
+		System.out.println("login page ------>>>>>");
+		return "login";
+	}
+	
+	@GetMapping("/loggedout")
+	public String logoutControl() {
+		System.out.println("logout page ------>>>>>");
+		return "logout";
+	}
+	
+	@GetMapping("/error")
+	public String errorControl() {
+		System.out.println("error page ------>>>>>");
+		return "error";
+	}
+
+	@GetMapping("register")
+	public ModelAndView register() {
+		System.out.println("register page ------>>>>>");
 		Users ul = new Users();
 		ModelAndView mv =new ModelAndView();
-		mv.addObject("users", ul);
-		mv.setViewName("login");
+		mv.addObject("userlogin", ul);
+		mv.setViewName("register");
 		return mv;
 	}
+	
 	
 	@PostMapping({ "authenticate" })
 	public ModelAndView authenticate(@Valid @ModelAttribute("userlogin") UserLoginDto ul,BindingResult result) {
@@ -75,15 +95,5 @@ public class LoginController {
 		logger.info(mv.getViewName().toString());
 		return mv;
 	}
-	
-	@GetMapping("register")
-	public ModelAndView register() {
-		Users ul = new Users();
-		ModelAndView mv =new ModelAndView();
-		mv.addObject("userlogin", ul);
-		mv.setViewName("register");
-		return mv;
-	}
-	
 	
 }
