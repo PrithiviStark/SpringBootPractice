@@ -1,0 +1,82 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            width: 900px;
+            margin: 0 auto 0 0;
+            padding: 2px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 0 0 2 0;
+            text-align: center;
+        }
+        .para{
+         	padding: 5px 0px;
+        }
+        .note {
+        	color: red;
+        }
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="header">
+           #*<div class="logo">
+                <img src="path/to/your/logo.png" alt="Logo">
+            </div> *#
+            <h1>JOB APPLICATION</h1>
+        </div>
+        <div class="content">
+        
+            <div class="para">Hi $name,</div>
+            
+            <div class="para">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I hope this email finds you well. I am writing to express my interest in developer position at <b> $company </b>, as noticed on $source.
+			With my strong background in Java development and hands-on experience in building scalable and robust Web applications, I am excited about the opportunity to contribute to your team.
+			</div>
+			
+			<div class="para">
+			I have a solid foundation in Java programming, Spring framework, and MVC architecture, as evidenced by my previous projects where I successfully delivered high-quality software solutions within tight deadlines. 
+			My skills also include proficiency in database management systems, RESTful APIs, and version control systems like Git.
+			</div>
+			
+			<div class="para">
+			At my previous position at Venusgeo solutions, I worked with a team in developing a complex enterprise-level application and delivered a product that exceeded expectations.
+			I am confident that my technical expertise, problem-solving abilities, and strong communication skills make me a valuable asset to your development team.
+			</div>
+			
+			<div class="para">
+			<b>I have attached my resume for your review.</b> I would welcome the opportunity to discuss how my experiences align with the needs of your team further. Thank you for considering my application.
+			</div>
+			<div>
+			You can also contact/check my profile on LinkedIn :<a href="https://www.linkedin.com/in/prithivi-rajan-e-9a7043226/">click here</a>
+			</div>
+			<br>
+			<br>
+			
+			<small class="note"> Note : this is a system generated mail from Mr.prithivirajan's system.</small>
+			<br>
+			<br>
+			
+        </div>
+        <div class="footer">
+            #parse("templates/vm/signature.vm")
+        </div>
+    </div>
+</body>
+</html>

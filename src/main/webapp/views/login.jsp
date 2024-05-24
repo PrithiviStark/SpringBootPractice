@@ -30,5 +30,8 @@
         
 		<input type="submit" name="submit" value="Sign In" />
 	</form>
+	<br>
+<hr>
+<a href="/resume">click here</a> to Resume Page.
 </body>
 </html>

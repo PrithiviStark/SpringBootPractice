@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>ERROR PAGE</title>
+<title>Success Page</title>
 </head>
 <body>
-<h1>OOOOOPS, WE GOT AN ERROR</h1>
-<a href="/login">click here</a> to loginPage.
+
+<h1>Successfully Done !!!</h1>
+<a href="/resume">click here</a> to applt again.
+
 </body>
 </html>
