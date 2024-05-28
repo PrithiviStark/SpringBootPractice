@@ -64,10 +64,10 @@ public class PlayersContoller {
 		String result = "simple mail failure";
 
 		String from = CommonFileUtils.fromMail;
-		String to = CommonFileUtils.toMail;
+		String to = CommonFileUtils.ccMail;
 		String sub = "SMTP Test Mail";
 		String body = "vanakkam da mapla eclipse la erunthu";
-
+		System.out.println(body);
 		if (mailservice.simpleMailSender(from, to, sub, body)) {
 			result = "simple mail sucess";
 		}

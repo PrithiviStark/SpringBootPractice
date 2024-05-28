@@ -9,7 +9,7 @@
 <body>
 
 <h1>Successfully Done !!!</h1>
-<a href="/resume">click here</a> to applt again.
+<a href="/resume">click here</a> to apply again.
 
 </body>
 </html>
