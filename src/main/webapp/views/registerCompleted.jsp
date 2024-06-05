@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Registration Completed</title>
 
-<link rel="icon" href="/images/thamizhpro_profile.ico" type="image/x-icon" />
+<link rel="icon" href="/images/thamizhpro_icon-removebg.ico" type="image/x-icon" />
 </head>
 <body>
 <h1>Registration Done</h1>

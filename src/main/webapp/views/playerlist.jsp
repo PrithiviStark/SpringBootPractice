@@ -9,7 +9,7 @@
 <meta charset="ISO-8859-1">
 <title>Player List</title>
 
-<link rel="icon" href="/images/thamizhpro_profile.ico" type="image/x-icon" />
+<link rel="icon" href="/images/thamizhpro_icon-removebg.ico" type="image/x-icon" />
 <style type="text/css">
 
 .error-message {
