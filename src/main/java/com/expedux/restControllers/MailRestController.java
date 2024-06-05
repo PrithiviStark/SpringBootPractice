@@ -8,14 +8,21 @@ import org.springframework.web.bind.annotation.RestController;
 import com.expedux.services.EmailServices;
 import com.expedux.utils.CommonFileUtils;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
+
 @CrossOrigin(origins = "*")
 @RestController
+
+@Tag(name = "Mail API", description = "Mail APIs Controller")
 public class MailRestController {
 	
 	@Autowired
 	EmailServices mailservice;
 	
 	@GetMapping("apitestmail")
+	@Operation(summary = "Send a test mail", description = "Used to Test API connection from from-end and Returns a response as result String")
 	public String simpleMail() {
 		String result = "simple mail failure";
 
