@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.expedux.services.EmailServices;
 import com.expedux.utils.CommonFileUtils;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 public class MailRestController {
 	

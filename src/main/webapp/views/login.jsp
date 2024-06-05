@@ -9,29 +9,28 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>User Login</title>
+<link rel="icon" href="/images/thamizhpro_profile.ico" type="image/x-icon" />
 <style type="text/css">
-
 .error-message {
-    color: red;
-    font-size: 14px;
-    text-decoration: underline;
-   	font-weight: bold;
+	color: red;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: bold;
 }
 </style>
 </head>
 <body>
 	<form action="login" method="post">
-	
-        User Name : <input id="username" type="text" name="username" /><br>
-		<spring:errors path="userName" class="error-message"></spring:errors><br>
-		
-        Password: <input id="password" type="password" name="password" /><br>
-        <spring:errors path="userPassword" class="error-message"></spring:errors><br>
-        
-		<input type="submit" name="submit" value="Sign In" />
+
+		User Name : <input id="username" type="text" name="username" /><br>
+		<spring:errors path="userName" class="error-message"></spring:errors>
+		<br> Password: <input id="password" type="password"
+			name="password" /><br>
+		<spring:errors path="userPassword" class="error-message"></spring:errors>
+		<br> <input type="submit" name="submit" value="Sign In" />
 	</form>
 	<br>
-<hr>
-<a href="/resume">click here</a> to Resume Page.
+	<hr>
+	<a href="/resume">click here</a> to Resume Page.
 </body>
 </html>

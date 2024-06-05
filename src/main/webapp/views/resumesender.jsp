@@ -5,6 +5,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Resume sender</title>
+
+<link rel="icon" href="/images/thamizhpro_profile.ico" type="image/x-icon" />
 </head>
 <body>
  <h1>Send Email with Attachment</h1>
