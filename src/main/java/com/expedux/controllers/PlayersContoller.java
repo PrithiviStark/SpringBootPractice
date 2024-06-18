@@ -105,8 +105,8 @@ public class PlayersContoller {
 	}
 
 	@PostMapping("/mailresume")
-	public ModelAndView resumeSender(@RequestParam("company") String company, @RequestParam("source") String source,
-			@RequestParam("name") String name, @RequestParam("toAddress") String toAddress,
+	public ModelAndView resumeSender(@RequestParam String company, @RequestParam String source,
+			@RequestParam String name, @RequestParam String toAddress,
 			@RequestParam("file") List<MultipartFile> files) {
 
 		ModelAndView mv =new ModelAndView();
