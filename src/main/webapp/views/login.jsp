@@ -9,7 +9,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>User Login</title>
-<link rel="icon" href="/images/thamizhpro_icon-removebg.ico" type="image/x-icon" />
+<link rel="icon" href="/images/thamizhpro_icon-removebg.ico"
+	type="image/x-icon" />
 <style type="text/css">
 .error-message {
 	color: red;
@@ -29,6 +30,10 @@
 		<spring:errors path="userPassword" class="error-message"></spring:errors>
 		<br> <input type="submit" name="submit" value="Sign In" />
 	</form>
+
+	<br>
+	<hr>
+	<a href="/register">click here</a> to new registration.
 	<br>
 	<hr>
 	<a href="/resume">click here</a> to Resume Page.
