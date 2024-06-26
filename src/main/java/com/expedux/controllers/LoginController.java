@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.expedux.dtos.UserDetailsDto;
@@ -29,7 +30,7 @@ public class LoginController {
 	private static final Logger logger= LoggerFactory.getLogger(LoginController.class);
 	
 
-	@GetMapping({"/","/login"})
+	@GetMapping({"/login"})
 	public String loginControl() {
 		System.out.println("login page ------>>>>>");
 		return "login";

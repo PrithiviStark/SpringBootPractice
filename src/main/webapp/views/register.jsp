@@ -25,13 +25,13 @@
 	<spring:form action="registration" method="post"
 		modelAttribute="userDetails">
         User Name : <spring:input id="username" type="text"
-			path="userName" name="username" />
+			path="userName" name="username" autocomplete="off"/>
 		<br>
 		<spring:errors path="userName" class="error-message"></spring:errors>
 		<br>
 		
         Password: <spring:input id="password" type="text"
-			path="userPassword" name="password" />
+			path="userPassword" name="password"  autocomplete="off"/>
 		<br>
 		<spring:errors path="userPassword" class="error-message"></spring:errors>
 		<br>

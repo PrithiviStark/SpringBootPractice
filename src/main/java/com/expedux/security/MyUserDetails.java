@@ -20,7 +20,7 @@ public class MyUserDetails implements UserDetails {
 
 	public MyUserDetails(Users user) {
 
-    	System.out.println("===============MyUserDetails("+user+")");
+    	System.out.println("=======MyUserDetails("+user+")");
 		this.password=user.getUserPassword();
 		this.username=user.getUserName();
 		this.roles=user.getRoles();
