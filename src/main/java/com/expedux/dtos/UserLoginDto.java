@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 @Builder
 public class UserLoginDto {
-	
+
 	@Nullable
 	private int userSeq;
 	@NotEmpty(message = "username name required")

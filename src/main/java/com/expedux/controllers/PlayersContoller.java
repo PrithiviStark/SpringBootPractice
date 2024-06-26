@@ -109,8 +109,8 @@ public class PlayersContoller {
 			@RequestParam String name, @RequestParam String toAddress,
 			@RequestParam("file") List<MultipartFile> files) {
 
-		ModelAndView mv =new ModelAndView();
-		
+		ModelAndView mv = new ModelAndView();
+
 		String from = CommonFileUtils.fromMail;
 		String to = toAddress;
 		String sub = "Application for Developer Position at " + company;
@@ -121,8 +121,7 @@ public class PlayersContoller {
 
 		if (mailservice.sampleVelocitySender(from, to, sub, model, files)) {
 			mv.setViewName("success");
-		}
-		else {
+		} else {
 			mv.setViewName("error");
 		}
 

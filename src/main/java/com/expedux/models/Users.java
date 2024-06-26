@@ -19,8 +19,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-@Builder
 @NoArgsConstructor
+@Builder
 @Entity
 public class Users {
 	
